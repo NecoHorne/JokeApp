@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
+    public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
         private MyApi myApiService = null;
 
         @Override

@@ -3,6 +3,9 @@ package com.necohorne.jokeapp.free;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.VisibleForTesting;
+import android.support.test.espresso.IdlingResource;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -31,6 +34,23 @@ public class MainActivity extends AppCompatActivity {
     private AdView mAdView;
     private InterstitialAd mInterstitialAd;
     private ProgressBar mProgressBar;
+    private MainIdlingResource mIdlingResource;
+    private static String mJoke;
+
+    @VisibleForTesting
+    @NonNull
+    public IdlingResource getIdlingResource() {
+        if (mIdlingResource == null) {
+            mIdlingResource = new MainIdlingResource();
+        }
+        return mIdlingResource;
+    }
+
+    @VisibleForTesting
+    @NonNull
+    public static String getJoke(){
+        return mJoke;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setupAds();
         mProgressBar = findViewById(R.id.progressBar);
+        getIdlingResource();
 
         tellJokeButton = findViewById(R.id.tellJokeButton);
         tellJokeButton.setOnClickListener(new View.OnClickListener() {
@@ -102,14 +123,16 @@ public class MainActivity extends AppCompatActivity {
             try {
                 return myApiService.jokes().execute().getData();
             } catch (IOException e) {
-                return e.getMessage();
+                return "";
             }
         }
 
         @Override
         protected void onPostExecute(String joke) {
             //Toast.makeText(MainActivity.this, joke, Toast.LENGTH_LONG).show();
+            mJoke = joke;
             mProgressBar.setVisibility(View.GONE);
+            mIdlingResource.setIdleState(true);
             launchActivityIntent(joke);
             super.onPostExecute(joke);
         }

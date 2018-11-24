@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "896147008849",
+    "firebase_url": "https://fir-intro-90f47.firebaseio.com",
+    "project_id": "fir-intro-90f47",
+    "storage_bucket": "fir-intro-90f47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896147008849:android:c8dc749d1747e766",
+        "android_client_info": {
+          "package_name": "com.necohorne.bakingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896147008849-8cs9akbv2geeki19k6a3fisoir9ip1c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.necohorne.bakingapp",
+            "certificate_hash": "c84d1faf32526b47cbcdf1e5205ebd9449f22191"
+          }
+        },
+        {
+          "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1eVXkTNXTGMkvm0BVSKnpXh2PT8aA2ak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896147008849:android:feadc126bb26fb57",
+        "android_client_info": {
+          "package_name": "com.necohorne.jokeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896147008849-ok7r6e61eq1ho6hg1oh85210lgoghv1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.necohorne.jokeapp",
+            "certificate_hash": "c84d1faf32526b47cbcdf1e5205ebd9449f22191"
+          }
+        },
+        {
+          "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1eVXkTNXTGMkvm0BVSKnpXh2PT8aA2ak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896147008849:android:f315c3f2bcaf1763",
+        "android_client_info": {
+          "package_name": "com.necohorne.jokeapp.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896147008849-5sog6pbf5sbdvloa3lah365iu9n0blvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.necohorne.jokeapp.free",
+            "certificate_hash": "c84d1faf32526b47cbcdf1e5205ebd9449f22191"
+          }
+        },
+        {
+          "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1eVXkTNXTGMkvm0BVSKnpXh2PT8aA2ak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896147008849:android:cceb3b9310297abc",
+        "android_client_info": {
+          "package_name": "com.necohorne.jokeapp.paid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896147008849-gom8vnn6appcv7ufsr7sjp822n1i1khe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.necohorne.jokeapp.paid",
+            "certificate_hash": "c84d1faf32526b47cbcdf1e5205ebd9449f22191"
+          }
+        },
+        {
+          "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1eVXkTNXTGMkvm0BVSKnpXh2PT8aA2ak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896147008849-78mcttsjb43gb5509vepqfhig84shr0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

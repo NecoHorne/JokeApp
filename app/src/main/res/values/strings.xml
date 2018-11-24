@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Joke App</string>
+    <string name="joke_hint_text">Press the button for a joke!</string>
+    <string name="tell_joke">Tell joke</string>
+</resources>

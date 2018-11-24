@@ -29,17 +29,17 @@ android {
         }
     }
 
-    flavorDimensions "version"
+    flavorDimensions "default"
     productFlavors {
-        free {
+        free{
             applicationId "com.necohorne.jokeapp.free"
-            dimension "version"
+            dimension "default"
             minSdkVersion 22
             targetSdkVersion 28
         }
-        paid {
+        paid{
             applicationId "com.necohorne.jokeapp.paid"
-            dimension "version"
+            dimension "default"
             minSdkVersion 22
             targetSdkVersion 28
         }
